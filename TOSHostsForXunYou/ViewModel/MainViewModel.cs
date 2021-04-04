@@ -52,7 +52,7 @@ namespace TOSHostsForXunYou.ViewModel
                   {
                       HostsHelper.UpdateHosts($"{ip} {domain}");
                       IsEnableText = "关闭Hosts映射";
-                      StatusText = "开启成功。";
+                      StatusText = "映射成功，进游戏后可关闭程序。";
                   }
 
                   // 刷新并输出当前Hosts列表

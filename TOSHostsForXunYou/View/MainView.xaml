@@ -9,7 +9,7 @@
     Title="救世者之树迅游伴侣"
     Width="250"
     d:DataContext="{d:DesignInstance Type=viewmodel:MainViewModel}"
-    Icon="{Binding}"
+    Icon="/TOSHostsForXunYou;component/TOS.ico"
     SizeToContent="Height"
     Style="{DynamicResource CustomToolWindowStyle}"
     WindowStartupLocation="CenterScreen"
@@ -35,13 +35,10 @@
             BorderBrush="Gray"
             BorderThickness="0,1,0,0">
             <StatusBarItem>
-                <TextBlock Text="信息：" />
-            </StatusBarItem>
-            <StatusBarItem>
                 <TextBlock Text="{Binding StatusText}" />
             </StatusBarItem>
             <StatusBarItem HorizontalAlignment="Right">
-                <Hyperlink NavigateUri="http://www.google.com" RequestNavigate="Hyperlink_RequestNavigate">
+                <Hyperlink NavigateUri="https://github.com/EjiHuang/TOSHostsForXunYou" RequestNavigate="Hyperlink_RequestNavigate">
                     About me
                 </Hyperlink>
             </StatusBarItem>
